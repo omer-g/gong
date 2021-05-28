@@ -8,8 +8,7 @@ import datetime as dt
 
 
 minutes_between = 30 if len(sys.argv) == 1 else int(sys.argv[1])
-print("This script plays a gong every ", minutes_between, " minutes.")
-print("Press Ctrl + C to quit.")
+print("gong every", minutes_between, "minutes (ctrl c or ctrl z to quit)")
 
 while True:
     curr_time = dt.datetime.now()
